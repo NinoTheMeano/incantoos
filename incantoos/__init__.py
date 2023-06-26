@@ -1,6 +1,6 @@
-import datetime
+import datetime, random
 
-version = "1.0.2"
+version = "1.0.3"
 
 class color:
     blue = 0x0076FF
@@ -15,3 +15,17 @@ def nowtime():
     time = datetime.datetime.now()
     return time
 
+def ranid():
+    def gettheid(string):
+        for ta in range(4):
+            string += random.choice(["a","b","c","d","e","f","g","h","i","k","l","m","n","o","q","r","s","t","v","x","y","z","1","2","3","4","5","6","7","8","9"])
+        return string
+    ranid = ""
+    ranid = gettheid(ranid)
+    ranid += "-"
+    ranid = gettheid(ranid)
+    return ranid
+
+        
+        
+                      

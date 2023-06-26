@@ -22,3 +22,8 @@ Prints the current system time.
     incantoos.nowtime()
 ```
 
+Gives you a 8 character ID Ex. ("944b-fq8d")
+```py
+    incantoos.ranid()
+```
+
