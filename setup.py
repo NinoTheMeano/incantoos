@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup_info = {
     "name": "incantoos",
-    "version": "1.0.1",
+    "version": "1.0.1.2",
     "author": "NinoTheMeano",
     "author_email": "ninosdeveloping@gmail.com",
     "description": "IncantoOS Is intended to give ",
