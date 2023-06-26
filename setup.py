@@ -5,10 +5,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup_info = {
     "name": "incantoos",
-    "version": "1.0.1.2",
+    "version": "1.0.2",
     "author": "NinoTheMeano",
     "author_email": "ninosdeveloping@gmail.com",
-    "description": "IncantoOS Is intended to give ",
+    "description": "IncantoOS Is a wrapper related to OS functions that can be put into a smaller faster function",
     "long_description": long_description,
     "long_description_content_type": "text/markdown",
     "url": "https://github.com/NinoTheMeano/incantoos",
@@ -24,7 +24,7 @@ setup_info = {
     "project_urls": {
         "Discord": "https://discord.com/users/255125932447236096"
     },
-    "python_requires": '>=3.7',
+    "python_requires": '>=3.8',
     "install_requires": []
 }
 
