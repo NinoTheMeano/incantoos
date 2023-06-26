@@ -25,9 +25,7 @@ setup_info = {
         "Discord": "https://discord.com/users/255125932447236096"
     },
     "python_requires": '>=3.7',
-    "install_requires": [
-        "python-datetime"
-    ]
+    "install_requires": []
 }
 
 
