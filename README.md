@@ -9,3 +9,10 @@ I will try to keep up with the documentation of IncantoOS even though it wasnt m
 
 # Discresion
 I am not the best coder so do not expect IncantoOS to work properly. If a bug is found you can report it to me via the github.
+
+# Documentation
+
+Prints the current system time.
+```py
+    incantoos.nowtime()
+```
