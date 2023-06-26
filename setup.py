@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup_info = {
     "name": "incantoos",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "NinoTheMeano",
     "author_email": "ninosdeveloping@gmail.com",
     "description": "IncantoOS Is intended to give ",
@@ -26,8 +26,7 @@ setup_info = {
     },
     "python_requires": '>=3.7',
     "install_requires": [
-        "httpx>=0.21.0",
-        "python-dateutil>=2.8.0"
+        "python-datetime"
     ]
 }
 

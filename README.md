@@ -16,3 +16,8 @@ Prints the current system time.
 ```py
     incantoos.nowtime()
 ```
+
+Adds two string values together.
+```py
+    incantoos.addstr(one, two)
+```
