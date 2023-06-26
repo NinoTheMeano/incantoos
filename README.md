@@ -1,3 +1,6 @@
+# Message
+I messed up something in the setup.py file so I had to reupload it under 1.0.1.2. Next version will be 1.0.2
+
 # Overview
 IncantoOS Is a wrapper related to OS functions that can made into a smaller faster function
 
