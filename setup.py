@@ -11,7 +11,7 @@ setup_info = {
     "description": "IncantoOS Is intended to give ",
     "long_description": long_description,
     "long_description_content_type": "text/markdown",
-    "url": "https://github.com/ro-py/ro.py",
+    "url": "https://github.com/NinoTheMeano/incantoos",
     "packages": setuptools.find_packages(),
     "classifiers": [
         "Programming Language :: Python :: 3",
