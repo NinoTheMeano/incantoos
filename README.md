@@ -22,8 +22,15 @@ Prints the current system time.
     incantoos.nowtime()
 ```
 
-Gives you a 8 character ID Ex. ("944b-fq8d")
+
 ```py
-    incantoos.ranid()
+    class ids
+
+    ids.fourdashfour()
+        Gives you a 8 character ID Ex. ("944b-fq8d")
+
+    ids.ranid(amount : int)
+        Gives you a randomized id of the specified amount
+        
 ```
 
