@@ -1,9 +1,10 @@
 import datetime, random
 
-version = "1.0.4"
+version = "1.0.5"
 
 class color:
     blue = 0x0076FF
+    lightblue = 0x5790A8
     green = 0x00FF00
     yellow = 0xFFFF00
     red = 0xFF0000
@@ -11,10 +12,18 @@ class color:
     teal = 0x00ffff
     purple = 0xA020F0
 
-def nowtime():
-    time = datetime.datetime.now()
-    return time
 
+
+class times:
+    def utcnowtime():
+        time = datetime.datetime.utcnow()
+        return time
+    def nowtime():
+        time = datetime.datetime.now()
+        return time
+    
+
+print()
 
 class ids:
     def fourdashfour():
@@ -35,3 +44,4 @@ class ids:
             return string
         ranid = gettheid(ranid)
         return ranid   
+    
