@@ -34,3 +34,11 @@ Prints the current system time.
         
 ```
 
+```py
+    class times
+
+    times.nowtime()
+        Prints the current system time
+    times.utcnowtime()
+        Prints the current system time in UTC
+```
