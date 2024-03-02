@@ -41,4 +41,7 @@ Prints the current system time.
         Prints the current system time
     times.utcnowtime()
         Prints the current system time in UTC
+    times.nowtime
+        Prints now time orgainzed by Month/Day/Year | Hour/Minute/Second
+            Ex. [M/D/Y H:D:Y]
 ```
