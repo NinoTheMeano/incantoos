@@ -1,6 +1,6 @@
 import datetime, random
 
-version = "1.0.7"
+version = "1.0.8"
 
 class color: # Colors
     blue = 0x0076FF
@@ -22,10 +22,10 @@ class times: # Times
         time = datetime.datetime.now()
         return time
     def nowtimemdyhms(): # Prints now time orgainzed by Month/Day/Year | Hour/Minute/Second
-        time = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S")
+        time = datetime.datetime.now().strftime("%m/%d/%Y %H:%M:%S %p")
         return time
     def utcnowtimemdyhms(): # Prints now time orgainzed by Month/Day/Year | Hour/Minute/Second
-        time = datetime.datetime.utcnow().strftime("%m/%d/%Y %H:%M:%S")
+        time = datetime.datetime.utcnow().strftime("%m/%d/%Y %H:%M:%S %p")
         return time
 
 print()
