@@ -1,6 +1,6 @@
 import datetime, random
 
-version = "1.0.8"
+version = "1.0.9"
 
 class color: # Colors
     blue = 0x0076FF
