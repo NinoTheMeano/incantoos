@@ -26,10 +26,10 @@ Prints the current system time.
 ```py
     class ids
 
-    ids.fourdashfour()
+    ids.fourdashfour(capital : bool)
         Gives you a 8 character ID Ex. ("944b-fq8d")
 
-    ids.ranid(amount : int)
+    ids.ranid(amount : int, capital : bool)
         Gives you a randomized id of the specified amount
         
 ```
