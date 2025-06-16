@@ -11,6 +11,7 @@ class color: # Colors
     black = 0x000001
     teal = 0x00ffff
     purple = 0xA020F0
+    orange = 0xFF5B00
 
 
 
@@ -31,7 +32,7 @@ class times: # Times
 print()
 
 class ids: # Identification Numbers
-    def fourdashfour(capital : bool): # Prints a number EX. a2f9-kl9f
+    def fourdashfour(): # Prints a number EX. a2f9-kl9f
         ranid = ""
         def gettheid(string):
             for ta in range(4):
@@ -40,28 +41,13 @@ class ids: # Identification Numbers
         ranid = gettheid(ranid)
         ranid += "-"
         ranid = gettheid(ranid)
-        if capital == True:
-            ranid = ranid.capitalize()
-            return ranid
-        elif capital == False:
-            return ranid
-        else:
-            ranid = "Error"
-            return ranid
+        return ranid
         
-    def ranid(amount : int, capital : bool): # Gives a random number.
+    def ranid(amount : int): # Gives a random number.
         ranid = ""
         def gettheid(string):
             for ta in range(amount):
                 string += random.choice(["a","b","c","d","e","f","g","h","i","k","l","m","n","o","q","r","s","t","v","x","y","z","1","2","3","4","5","6","7","8","9"])
             return string
         ranid = gettheid(ranid)
-        if capital == True:
-            ranid = ranid.capitalize()
-            return ranid
-        elif capital == False:
-            return ranid
-        else:
-            ranid = "Error"
-            return ranid  
-    
+        return ranid
